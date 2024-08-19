@@ -1,0 +1,115 @@
+:root {
+  --maincolor: #410047;
+  --secondcolor: #72027c;
+  --thirdcolor: #b60cc5;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: var(--maincolor);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  
+  header {
+    background-color: var(--maincolor);
+    padding: 2px 0;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    width: 300px;
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    margin-right: 1rem;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-left: 20px;
+    background-color: var(--secondcolor);
+    padding: .7rem;
+    border-radius: .5rem;
+
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+  }
+  
+  .auth {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .auth button{
+    margin: .5rem;
+  }
+  
+  .btn {
+    background-color: var(--secondcolor);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: var(--maincolor);
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    background-color: var(--thirdcolor);
+  }
+  
+  .hero-content {
+    flex: 1;
+    margin-right: 50px;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .hero-image {
+    flex: 1;
+    position: relative;
+  }

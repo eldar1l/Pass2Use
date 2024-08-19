@@ -1,0 +1,57 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/gen.css" />
+    <title>Pass2Use</title>
+  </head>
+  <body>
+    <header>
+      <img src="/img/logo_no-bg.png">
+    </header>
+    <main>
+      <section>
+        <div class="borde">
+          <h2>Generar Contraseña</h2>
+
+          <form>
+            <label for="longitud">Longitud de la contraseña:</label>
+
+            <input type="number" id="longitud" value="12" min="8" max="32" />
+
+            <br /><br />
+
+            <label for="mayusculas">Incluir mayúsculas:</label>
+
+            <input type="checkbox" id="mayusculas" />
+
+            <br /><br />
+
+            <label for="numeros">Incluir números:</label>
+
+            <input type="checkbox" id="numeros" />
+
+            <br /><br />
+
+            <label for="simbolos">Incluir símbolos:</label>
+
+            <input type="checkbox" id="simbolos" />
+
+            <br /><br />
+
+            <button type="button" id="generar">Generar Contraseña</button>
+          </form>
+
+          <p id="contraseña"></p>
+        </div>
+      </section>
+    
+    </main>
+
+    <script src="/java/javagen.js "></script>
+  </body>
+</html>

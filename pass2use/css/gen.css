@@ -1,0 +1,69 @@
+:root {
+    --maincolor: #410047;
+    --secondcolor: #72027c;
+    --thirdcolor: #b60cc5;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: var(--maincolor);
+  }
+
+header {
+    background-color: var(--maincolor);
+    padding: 2px 0;  
+    text-align: center;
+    
+  }
+
+header img{
+    width: 300px;
+    margin: 0;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  section {
+    background-color: var(--secondcolor);
+    padding: 2rem;
+    margin: 0;
+    border-radius: 3rem;
+    box-shadow: 0 0 100px var(--thirdcolor);
+    border: 
+  }
+
+.borde{
+    padding: 1rem;
+    background-color: #680072;
+    box-shadow: 0 0 100px #680072;
+    border-radius: 3rem;    
+}
+
+h2{
+    color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+}
+
+input[type="number"], input[type="checkbox"], button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid var(--maincolor);
+    border-radius: .3rem;
+    background-color: var(--thirdcolor);
+}
+
+button:hover{
+    background-color: #6f0079;
+}

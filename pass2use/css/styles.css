@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Breath';
+    src: url('/fonts/Breath.ttf') format('truetype');
+  }
+
+:root {
+    --maincolor: #410047;
+    --secondcolor: #72027c;
+    --thirdcolor: #b60cc5;
+}
+
+  body {
+    animation: fade-in 2s;
+    font-family: sans-serif;
+    background-color: var(--maincolor);
+}
+
+@keyframes fade-in{
+    0% { opacity: 0; };
+    100% { opacity: 1};
+}
+
+header {
+    background-color: var(--secondcolor);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+section {
+    background-color: var(--secondcolor);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid var(--maincolor);
+    border-radius: .3rem;
+    background-color: var(--thirdcolor);
+}
+
+input[type="submit"] {
+    background-color: var(--thirdcolor);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--maincolor);
+}
+
+h3{
+    color: white;
+}
+
+.register {
+    background-color: var(--thirdcolor);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register:hover {
+    background-color: var(--maincolor);
+}
+
+footer {
+    text-decoration: none;
+    color: var(--secondcolor);
+}
